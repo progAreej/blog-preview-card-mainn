@@ -1,0 +1,79 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    box-sizing: border-box;
+    padding-top:5%;
+    padding-left: auto;
+  
+    
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+  
+    
+    justify-content: flex-start;
+    padding: 2%;
+    text-align: left;
+    width: 350px;
+    border-radius: 15px;
+    height: auto;
+    background-color:  hsl(0, 0%, 100%);
+    border: 3px solid hsl(0, 0%, 7%);
+    box-shadow: 10px 10px 0px hsl(0, 0%, 7%);
+}
+svg{
+    text-align: center;
+    border-radius: 15px;
+}
+.card h3{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: x-large;
+    font-family: "Figtree";
+    background-color: hsl(47, 88%, 63%);
+
+}
+.card #p-one{
+    color: hsl(0, 0%, 7%);
+    font-family: "Figtree";
+    font-size: 18px;
+    font-weight: 600;
+}
+.card h1{
+    color: hsl(0, 0%, 7%);
+    font-family: "Figtree";
+    font-weight: 1800;
+    font-size:xx-large;
+}
+.card #p-tow{
+    font-size: 22px;
+    color: hsl(0, 0%, 50%);
+    font-family: "Figtree";
+}
+.name{
+    display: flex;
+}
+.name img{
+    width: 40px;
+    height: 40px;
+}
+.name p{
+    color:hsl(0, 0%, 7%) ;
+    font-family: "Figtree";
+    font-weight: 800;
+    font-size:large;
+    margin-left: 20px;
+    margin-top:6px ;
+
+}
